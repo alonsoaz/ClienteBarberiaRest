@@ -1,0 +1,349 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #3ebbbd;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3ebbbd;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #455A64;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #BDBDBD;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #607D8B;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #212121;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  background-color: #1ff9ff  
+}
+.modcontainer {
+  padding: 16px;
+  background-color: #1ff9ff  
+}
+
+span.psw {
+  float: center;
+  padding-top: 16px;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] 
+  , input[type=number], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+  input[type=text]:focus, input[type=password]:focus 
+  , input[type=number]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+h3 {
+   width: 300px;
+   margin: auto;
+   color: #195eaf
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+	margin-top: 8px;
+    height: 48px;
+	overflow: hidden;
+	background-color: #9F9F9E;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.btn-search {
+    
+    background: #9F9F9E;
+  	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+    border-color: #ff7701;
+    border: none;
+    outline:none;
+}
+/* Change the color of links on hover */
+.btn-search:hover {
+
+	background-color: #ddd;
+	color: black;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+	background-color: #46C1BF;
+	color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+	float: right;
+	padding: 8px;
+	border: none;
+	width: 80px;
+	text-align: left;
+	margin-top: 9px;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #123456; /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #123456;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.overlay {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.9);
+	overflow-y: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 7%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+#Sidenavc a {
+  position: absolute;
+  top: -34px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 60px;
+  height: 70px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#Sidenavc a:hover {
+  top: 0;
+}
+
+#Sidenavb a {
+	position: absolute;
+	left: -90px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 130px;
+    margin-right: 80px;
+    height: 48px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#Sidenavb a:hover {
+	left: -20px;
+}
+
+#blog {
+  left: 80px;
+  top: 200px;
+	background-color: #2196F3;
+}
+
+#about {
+	top: 4px;
+	background-color: #5C6AC4;
+}
+
+#projects {
+	top: 54px;
+	background-color: #f44336;
+}
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	.topnav a, .topnav input[type=text] {
+		float: none;
+		display: block;
+		text-align: right;
+		width: 13%;
+		margin: 0;
+		padding: 14px;
+	}
+	.topnav input[type=text] {
+		border: 1px solid #ccc;
+	}
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
